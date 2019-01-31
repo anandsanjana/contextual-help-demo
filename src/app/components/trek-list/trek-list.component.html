@@ -1,0 +1,12 @@
+<div class="jumbo">
+	<p fxFill>Best trekking sites near you...</p>
+</div>
+<div  fxLayout="row wrap" fxLayoutGap="2%" fxLayoutAlign="center">
+	<mat-card fxFlex="30%" fxFlex.xs="80%" class="card-picture" *ngFor = "let item of trekList">
+		<mat-card-title>{{item.title}}</mat-card-title>
+		<img mat-card-image [src]="item.image">	
+		<mat-card-actions>
+			<a mat-raised-button color="primary" routerLink="/treks/{{item.id}}">Details</a>
+		</mat-card-actions>
+	</mat-card>
+</div>

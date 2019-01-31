@@ -1,0 +1,12 @@
+<div *ngIf="helpContent; else loader">
+	<h2>Help Content</h2>
+	<mat-list>
+		<div *ngFor="let content of helpContent">
+		  <mat-list-item>{{content}}</mat-list-item>
+		  <mat-divider></mat-divider>
+		</div>
+	</mat-list>
+</div>
+<ng-template #loader>
+	<mat-spinner class="loader" diameter="50"></mat-spinner>
+</ng-template>

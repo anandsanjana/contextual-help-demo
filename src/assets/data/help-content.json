@@ -1,0 +1,28 @@
+[
+	{
+		"screen": "home",
+		"content": [
+			"This is the home page of GoTrek!",
+			"Click 'View Trekking Sites' to view the list of trekking sites near you!"
+		]
+	},
+
+	{
+		"screen": "trekList",
+		"content": [
+			"This page shows the list of best trekking sites near you.",
+			"Click the 'View Details' button to view details of the trekking sites.",
+			"Use the 'GoTrek' logo on the top-left to navigate back to home page."
+		]
+	},
+
+	{
+		"screen": "trekDetail",
+		"content": [
+			"This page shows the details of selected trekking site.",
+			"Use the 'Back' button to navigate to the list of all trekking sites.",
+			"Use the side panel to navigate to other screens."
+		]
+	}
+	
+]
